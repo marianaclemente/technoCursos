@@ -3,5 +3,5 @@
 
 [[redirects]]
   from = "/"
-  to = "/earworms.json"
+  to = "/api.json"
   status = 302
