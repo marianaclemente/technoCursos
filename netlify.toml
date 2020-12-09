@@ -16,7 +16,7 @@
 
 [[redirects]]
     from = "/*"
-    to = "/dashboard"
+    to = "/"
     status = 200
     force = false
     query = {path = ":path"} # apply this rule for /?path=example
