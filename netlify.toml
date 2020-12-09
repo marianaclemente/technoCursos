@@ -23,6 +23,6 @@
     conditions = {Role = ["admin"]}
       
 [[redirects]]
-    from = "/*"
+    from = "/src/views/cursos"
     to = "/"
     status = 302
