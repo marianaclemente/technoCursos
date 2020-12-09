@@ -14,7 +14,7 @@
   jwtRolePath = "app_metadata.authorization.roles" # Object path we should look for role values for JWT based redirects
   autoLaunch = true # a Boolean value that determines if Netlify Dev launches the local server address in your browser
 
-[redirects]
+[[redirects]]
     from = "/*"
     to = "/dashboard"
     status = 200
@@ -22,7 +22,7 @@
     query = {path = ":path"} # apply this rule for /?path=example
     conditions = {Role = ["admin"]}
       
-[redirects]
+[[redirects]]
     from = "/*"
     to = "/"
     status = 302
