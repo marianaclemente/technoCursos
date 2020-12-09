@@ -9,7 +9,7 @@ export default {
     fetchData(url) {
       this.loading = true;
       this.api = null;
-      fetch(`http://localhost:3000${url}lll`)
+      fetch(`http://localhost:3000${url}`)
         .then(r => r.json())
         .then(r => {
           setTimeout(() => {

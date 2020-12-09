@@ -3,5 +3,5 @@
 
 [[redirects]]
   from = "/"
-  to = "/api.json"
+  to = "/src/App.vue"
   status = 302
