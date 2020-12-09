@@ -3,5 +3,5 @@
 
 [[redirects]]
   from = "/"
-  to = "/src/App.vue"
+  to = "/public/index.html"
   status = 302
