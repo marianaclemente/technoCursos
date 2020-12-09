@@ -23,6 +23,6 @@
 [[redirects]]
   from = "/*"
   to = "https://technocursos.netlify.app/:splat"
-  status = 301
+  status = 200
   force = true
 
