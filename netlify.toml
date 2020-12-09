@@ -17,11 +17,12 @@
       
 [[redirects]]
     from = "/cursos"
-    to = "https://technocursos.netlify.app/cursos"
+    to = "/cursos"
     status = 302
 
 [[redirects]]
-    from = "/contato"
-    to = "https://technocursos.netlify.app/contato"
-    status = 302
+  from = "https://example.netlify.com/*"
+  to = "https://www.example.com/:splat"
+  status = 301
+  force = true
 
