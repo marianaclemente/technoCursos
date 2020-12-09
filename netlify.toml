@@ -16,7 +16,7 @@
 
       
 [[redirects]]
-    from = "/cursos"
+    from = "/*"
     to = "/"
     status = 200
 
